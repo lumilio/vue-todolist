@@ -1,5 +1,7 @@
+
+
 .mainbox{
-    background-color: grey;
+    background-color: #b0c4de;
     height: 100vh;
 }
 
@@ -9,4 +11,18 @@
 
 input{
     width: 290px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    padding: 2px 8px;
+}
+
+
+.second-box{
+    width: 350px;
+    min-height: 300px;
 }
