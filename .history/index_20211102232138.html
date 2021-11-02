@@ -28,8 +28,8 @@
 
 
 
-                    <div v-if>
-                        <div v-for='(task, index) in tasks'>
+                    <div v-if='tasks.length > 0'>
+                        <div v-for='(taskt, index) in tasks'>
                             <div class="List-Element">
                                 <div class="d-flex justify-content-between">
                                     <p>{{task}}</p>
