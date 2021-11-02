@@ -9,17 +9,22 @@
     <link rel='stylesheet' href="asset/css/style.css">
 </head>
 <body>
+
+    
+
     <div id="root">
-        <div class="Main-Box container d-flex align-items-center flex-column">          
+        <div class="Main-Box container d-flex align-items-center flex-column">
+            
             <img src="http://boolean.careers/images/misc/logo.png" alt="">
 
 
-            <!----------------------- all'invio di un valore corretto viene eseguita la funzione 'addTask' -->
+
             <div class="The-Form flex-row p-3">
                <input type="text" v-model='newTask' @keyup.enter='addTask'> 
                <button v-on:click='addTask'>Add</button>
-               <div v-show='error'>You must write something :/</div>  
-            </div> 
+               <div class="error" v-show='error'>You must write something</div>
+            </div>
+
 
 
             <div class="Second-Box d-flex flex-column bg-white">
@@ -38,11 +43,9 @@
                         </div>
                     </div>
 
-
                     <div v-else>   <!----------------------- coontenuto in assenza di elementi nell'arrey -->
                         <p>all tasks completed !</p>
                     </div>
-
 
                 </div>
             </div>

@@ -16,7 +16,7 @@ const app = new Vue({
     },
 
     methods: { 
-        removeTask(x){  /*--------------- interattività pulsante che cancella task */
+        removeTask(x){
             this.tasks.splice(x, 1);
         },
         addTask(){ 

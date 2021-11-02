@@ -6,7 +6,7 @@ const app = new Vue({
     el: '#root',
 
     data: { 
-        newTask:'',
+        newTask: '',
         tasks: [
             'Fare la spesa',
             'Fare la cena',
@@ -16,22 +16,21 @@ const app = new Vue({
     },
 
     methods: { 
-        removeTask(x){  /*--------------- interattività pulsante che cancella task */
+        removeTask(x){
             this.tasks.splice(x, 1);
-        },
-        addTask(){ 
-            if(this.newTask !=''){  
-                this.tasks.push(this.newTask);
-                this.error = false;
-            } else{  /*--------------- in caso l'input sia vuoto restituisco errore */
-                this.error = true;
-            };
-    
-            this.newTask = '';   /*--------------- rimuovo il contenuto nell'input dopo l'invio */
         }
     },
 
-    
+    addTask(){ 
+        if(this.newTask !=''){  
+            this.tasks.push(this.newTask);
+            this.error = false;
+        } else{  /*--------------- in caso l'input sia vuoto restituisco errore */
+            this.error = true;
+        };
+
+        this.newTask = '';   /*--------------- rimuovo il contenuto nell'input dopo l'invio */
+    }
 })
 
 

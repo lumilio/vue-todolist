@@ -12,13 +12,13 @@
     <div id="root">
         <div class="Main-Box container d-flex align-items-center flex-column">          
             <img src="http://boolean.careers/images/misc/logo.png" alt="">
-
+            
 
             <!----------------------- all'invio di un valore corretto viene eseguita la funzione 'addTask' -->
             <div class="The-Form flex-row p-3">
                <input type="text" v-model='newTask' @keyup.enter='addTask'> 
                <button v-on:click='addTask'>Add</button>
-               <div v-show='error'>You must write something :/</div>  
+               <div class="error" v-show='error'>You must write something :/</div>  
             </div> 
 
 
