@@ -19,14 +19,14 @@ body{
     width: 250px;
 }
 
-input{
+.The-Form input{
     width: 290px;
     border-radius: 5px;
     border: none;
     padding: 2px 8px;
 }
 
-button{
+.The-Form button{
     border-radius: 5px;
     border: none;
     padding: 2px 8px;
@@ -46,10 +46,25 @@ button{
 
 .List-Box{
     margin: 1rem;
+    padding-top: 2rem;
     background-color: #d3d3d3;
     border-radius: 1rem;
 }
 
-.List-Box p{
-    margin: 19px;
+
+.List-Element{
+    margin-bottom: 15px;
+}
+
+.List-Box p,
+.List-Box i{
+    margin: 15px;
+}
+
+.List-Box i{
+    margin-right: 25px;
+}
+
+.List-Box hr{
+    margin: 0 15px;
 }
