@@ -6,17 +6,20 @@ const app = new Vue({
     el: '#root',
 
     data: { 
-        newTask: '',
-        tasks: [
+        
+        tasks : [
             'Fare la spesa',
             'Fare la cena',
             'Fare gli esercizzi',
         ],
+        newTask: '',
         error: false,
     },
 
     methods: { 
-        
+        sdff:{
+
+        }
     },
 })
 

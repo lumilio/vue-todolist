@@ -7,7 +7,7 @@ const app = new Vue({
 
     data: { 
         newTask: '',
-        tasks: [
+        tasks : [
             'Fare la spesa',
             'Fare la cena',
             'Fare gli esercizzi',
