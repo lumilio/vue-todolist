@@ -6,6 +6,13 @@ const app = new Vue({
     el: '#root',
 
     data: { 
+        newTask: '',
+        tasks : [
+            'Fare la spesa',
+            'Fare la cena',
+            'Fare gli esercizzi',
+        ],
+        error: false,
     },
 
     methods: {  
