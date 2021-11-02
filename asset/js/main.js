@@ -5,22 +5,10 @@ const app = new Vue({
 
     el: '#root',
 
-    data: {
-        addClass: 'red',
-        name: 'ciao',
-        surname: '',
-        counter: 0,
+    data: { 
     },
 
-    methods: {
-        changeColor(){
-            if(this.addClass == 'red'){
-                this.addClass = 'blu'
-            }
-            else{
-                this.addClass = 'red' 
-            }
-        }
+    methods: {  
     },
 })
 
