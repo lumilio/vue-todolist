@@ -1,11 +1,21 @@
-
-
-.mainbox{
-    background-color: #b0c4de;
-    height: 100vh;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-.mainbox img{
+
+body{
+    background-color: #b0c4de; 
+}
+
+.Main-Box{
+    margin-top: 200px;
+
+}
+
+.Main-Box img{
     width: 250px;
 }
 
@@ -13,6 +23,7 @@ input{
     width: 290px;
     border-radius: 5px;
     border: none;
+    padding: 2px 8px;
 }
 
 button{
@@ -21,8 +32,24 @@ button{
     padding: 2px 8px;
 }
 
-
-.second-box{
+.Second-Box{
     width: 350px;
     min-height: 300px;
+    border-radius: 1rem;
+}
+
+.List-Title{
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.List-Box{
+    margin: 1rem;
+    background-color: #d3d3d3;
+    border-radius: 1rem;
+}
+
+.List-Box p{
+    margin: 19px;
 }
